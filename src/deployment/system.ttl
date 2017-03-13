@@ -9,5 +9,5 @@
 <http://project-hobbit.eu/resources/debs2017/debsparrotsystemexample>	a	hobbit:SystemInstance;
     rdfs:label	"DEBS parrot system example"@en;
 	rdfs:comment "Example of DEBS parrot system"@en;
-	hobbit:hasAPI <http://www.example.org/exampleBenchmark/debsAPI>;
+	hobbit:implementsAPI <http://www.example.org/exampleBenchmark/debsAPI>;
 	hobbit:imageName "git.project-hobbit.eu:4567/rkaterinenko/debsparrotsystemexample" .
