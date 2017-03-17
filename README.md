@@ -3,7 +3,7 @@
 The system implemented it this repository is able to  pass DEBSParrotBenchmark. In order to do that it receives messages on `inputQueue` and sends all of them
 except `TERMINATION_MESSAGE` to `outputQueue`. Receiving of the `TERMINATION_MESSAGE` on `inputQueue`
 means no more followed messages. After the system has processed all the messages it must send `TERMINATION_MESSAGE` to
-`outputQueue`. The termination message is just a value of string "\~~Termination Message\~~" encoded to bytes with UTF-8.
+`outputQueue`. The termination message is just a value of string "\~\~Termination Message\~\~" encoded to bytes with UTF-8.
 
 ## Uploading system to the HOBBIT platform
 In order to upload this system to the HOBBIT platfrom you need to do a few steps described below.
